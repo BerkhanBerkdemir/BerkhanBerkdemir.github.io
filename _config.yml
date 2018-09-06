@@ -1,0 +1,34 @@
+title: "Berkhan Berkdemir's blog"
+author: Berkhan Berkdemir
+description: "About Ruby on Rails, Docker, Amazon Web Services, and other cool stuffs"
+
+url: "https://berkhanberkdemir.com"
+google_analytics: ""
+
+github_username: BerkhanBerkdemir
+twitter_username: BerkhanBerkdemi
+instagram_username: BerkhanBerkdemir
+
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jemoji
+
+# Jekyll SEO tag
+## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+twitter:
+  username: BerkhanBerkdemi
+  card: summary
+
+social:
+  name: Berkhan Berkdemir
+  links:
+  - https://github.com/BerkhanBerkdemir
+  - https://instagram.com/BerkhanBerkdemir
+  - https://twitter.com/BerkhanBerkdemi
+
+# Build settings
+markdown: kramdown
+theme: minima
+sass:
+  style: compressed
