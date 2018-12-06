@@ -3,6 +3,7 @@ layout: post
 title: Open an email client when Ubuntu starts
 image: /images/2018/09/5-Screenshot from 2018-09-28 22-55-18.png
 date: 2018-09-28 23:36 -0700
+
 tags: Ubuntu
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: Remove Hostname From Terminal
 image: /images/2018/09/4-after-hostname-edit.png
-#date: 2018-09-06 08:45 -0700
-#categories: [microservices]
+date: 2018-09-16 08:45 -0700
+
 tags: Ubuntu
 ---
 

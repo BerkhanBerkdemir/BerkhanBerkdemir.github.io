@@ -3,6 +3,7 @@ layout: post
 title:  AWS Lambda, Serverless, and DynamoDB
 image:  /images/2018/09/2-serverless-application-architecture.png
 date:   2018-09-06 08:45 -0700
+
 categories: [microservices]
 tags: [AWS, Serverless, DynamoDB, Lambda]
 ---
