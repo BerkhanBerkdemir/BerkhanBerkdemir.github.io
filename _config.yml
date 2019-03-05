@@ -8,16 +8,16 @@ github_username: BerkhanBerkdemir
 rss: RSS
 
 plugins:
+- jekyll-avatar
 - jekyll-feed
+- jekyll-gist
+- jekyll-mentions
+- jekyll-redirect-from
 - jekyll-sitemap
 - jemoji
 
 # Jekyll SEO tag
 ## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-twitter:
-  username: ' '
-  card: summary
-
 social:
   name: Berkhan Berkdemir
   links:
