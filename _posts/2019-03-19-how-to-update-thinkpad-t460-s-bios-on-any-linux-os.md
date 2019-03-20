@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Update ThinkPad T460's BIOS on any Linux OS
+description: Update ThinkPad T460's on Ubuntu 18.04, or any type of Linux distro that can run some Perl script
 date: 2019-03-19 17:32 -0700
 ---
 
