@@ -1,8 +1,11 @@
 ---
 layout: post
 title: How to Update ThinkPad T460's BIOS on any Linux OS
-description: Update ThinkPad T460's on Ubuntu 18.04, or any type of Linux distro that can run some Perl script
+description: >-
+  Update ThinkPad T460's on Ubuntu 18.04, or any type of Linux distro that can
+  run some Perl script
 date: 2019-03-19 17:32 -0700
+updated: 2019-04-23 15:24 -0700
 ---
 
 ## TL;DR
@@ -13,7 +16,7 @@ can update the BIOS &mdash; but with a disclaimer; **please make sure that you
 know what you are doing** because **you can do something wrong**. Also, I use
 Ubuntu 18.04, and the BIOS version was 1.10 which was released March 23, 2016.
 
-![Output of dmidecode](/images/2019/3/2-screenshot-from-2018-10-02-18-16-26.png)
+![Output of dmidecode](/public/images/2019/3/2-screenshot-from-2018-10-02-18-16-26.png "Output of dmidecode")
 *The screenshot was taken on 2 October, 2018*
 
 ## Required tools and steps to apply the update
@@ -63,7 +66,7 @@ follow **each instructions**. The system will reboot *itself* a few times.
 
 So, I updated to 1.40 from 1.10 :tada:
 
-![the output of dmidecode with the 1.40 BIOS](/images/2019/3/3-screenshot-from-2019-03-19-16-56-30.png)
+![the output of dmidecode with the 1.40 BIOS](/public/images/2019/3/3-screenshot-from-2019-03-19-16-56-30.png "the output of dmidecode with the 1.40 BIOS")
 
 ## Thanks
 

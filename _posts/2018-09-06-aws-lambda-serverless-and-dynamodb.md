@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  AWS Lambda, Serverless, and DynamoDB
-image:  /images/2018/09/2-serverless-application-architecture.png
-date:   2018-09-06 08:45 -0700
+title: AWS Lambda, Serverless, and DynamoDB
+image: /public/images/2018/09/2-serverless-application-architecture.png
+date: 2018-09-06 08:45 -0700
+updated: 2019-04-24 15:10 -0700
 
-categories: [microservices]
-tags: [AWS, Serverless, DynamoDB, Lambda]
+categories:
+  - microservices
+tags: [AWS, Lambda, DynamoDB, Serverless]
 ---
 
 A few years ago, microservices was one of the revolutionary development
@@ -21,9 +23,7 @@ Well, let's see why they prefer to move this magic development technique.
 Before we dive into microservices, we need to know what is a monolith
 application; then, we will talk about microservices.
 
-[
-![Monolith vs microservices](/images/2018/09/1-monolith-vs-microservices.png)
-](https://aws.amazon.com/microservices#Monolithic_vs._Microservices_Architecture)
+[![Monolith vs microservices](/public/images/2018/09/1-monolith-vs-microservices.png)](https://aws.amazon.com/microservices#Monolithic_vs._Microservices_Architecture)
 
 As in the figure, the monolith architecture acts like one application with user
 service, or posts service. However, microservices architecture has different
@@ -42,9 +42,7 @@ So, what will you achieve with AWS Lambda, API Gateway, DynamoDB?
 
 ## Serverless microservices architecture
 
-[
-![Serverless application architecture](/images/2018/09/2-serverless-application-architecture.png)
-](/images/2018/09/2-serverless-application-architecture.png)
+![Serverless application architecture](/public/images/2018/09/2-serverless-application-architecture.png "Serverless application architecture")
 
 When we talk about *serverless*, it does not mean that there is no servers. We
 still need them to serve these information with client, but in this case, we
