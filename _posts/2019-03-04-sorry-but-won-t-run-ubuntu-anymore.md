@@ -2,6 +2,7 @@
 layout: post
 title: Sorry, but I won't run Ubuntu anymore
 date: 2019-03-04 17:53 -0800
+updated: 2019-04-24 15:20 -0800
 ---
 
 I'm not hacked or nobody holds a gun to my head. I, literally, do not want to
@@ -13,7 +14,7 @@ about **detailed why** with [this YouTube link](https://youtu.be/Xy7v5tdfSZM).
 
 ## Background
 
-When I was 8 years old, I saw [BackTrack Linux][backtrack-linux] on my dad's
+When I was 8 years old, I saw [BackTrack Linux][backtrack-linux] on my father's
 IBM ThinkPad R51, and it was running with a CD. That was cool because I had
 Windows XP, and it needs to boot the system for ten minutes or so. But the
 coolest thing is that that CD just boots the system in 1-2 minutes. That was the
@@ -21,11 +22,11 @@ first time I saw Linux. Another important mention is that graphical user
 interface. That wasn't just like Windows, it was different than others because
 of that it felt me special.
 
-In 2014-2015, my dad invited to me to Dell Sonicwall firewall showcase &mdash; I
-was using Windows system BTW. I had heard firewall systems use Linux, but I had
-no idea about **why**? If we look at my age, 15, it is just normal for me to
-don't understand anything about Linux because at that time, I don't have any
-background of how computer works. So, I didn't find the answer of *why*?
+In 2014-2015, my father invited to me to Dell Sonicwall firewall showcase
+&mdash; I was using Windows system BTW. I had heard firewall systems use Linux,
+but I had no idea about **why**? If we look at my age, 15, it is just normal for
+me to don't understand anything about Linux because at that time, I don't have
+any background of how computer works. So, I didn't find the answer of *why*?
 
 > Many of my friends know that I'm fan of IBM servers because I grew up with one
 > of them: IBM eServer xSeries 205 aka. x205
@@ -49,8 +50,8 @@ was not the most beautiful thing, but yeah, you know.
 
 ![I was like that](https://media.giphy.com/media/SjuHQhR9RTdzq/giphy.gif)
 
-I set a Linux firewall ~~with my 15 years old experience~~. Well, we didn't run
-in the production, but that was unbelievably beautiful experience for me.
+I set a Linux firewall. Well, we didn't run in the production, but that was
+unbelievably beautiful experience for me.
 
 ## Finding Distributions and Trying Them in VirtualBox
 
@@ -126,7 +127,7 @@ development environment without any error.
 or
 
 > @ubuntu @gnome I found that bug in 17.10 #ubuntu #gnome #bug #nautilus
-> ![Nautilus bug on Ubuntu 17.10](/images/2019/3/1-nautilus-bug-on-ubuntu-17-10.jpg)
+> ![Nautilus bug on Ubuntu 17.10](/public/images/2019/3/1-nautilus-bug-on-ubuntu-17-10.jpg)
 >
 > &mdash; Berkhan Berkdemir May 15, 2018
 
@@ -176,7 +177,9 @@ no-new-feature releases when you have tons of.
 [^2]: If your background comes from old days (or with somebody's experience),
       you could say SuSE because the name of distribution was that. However, you
       won't be wrong if you call them SUSE. Also, SuSE stands for *Software und
-      System-Entwicklung*, Software and System Development
+      System-Entwicklung*, Software and System Development. Edit: They changed
+      their name to SUSE and with the pronounce of the company name. Please
+      check [SUSE Identity](https://www.suse.com/brandcentral/suse/identity.php).
 
 [^3]: Motherboard
 

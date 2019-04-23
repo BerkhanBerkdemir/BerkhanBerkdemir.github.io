@@ -1,11 +1,15 @@
 ---
 layout: post
 title: Tragedy of HP ProLiant DL380 G5
+image: /public/images/2019/4/1-slejven-djurakovic-1124716-unsplash.jpg
 date: 2019-04-22 15:32 -0700
 ---
 
 We bought second-hand DL380 G5 to run our master Citrix XenServer, and it works
 without any problem. Except latest version of firmware updates...
+
+![Intel computer processor in selective color photography](/public/images/2019/4/1-slejven-djurakovic-1124716-unsplash.jpg)
+*Photo by Slejven Djurakovic on Unsplash*
 
 > Tragedy (from the Greek: τραγῳδία, tragōidia) is a form of drama based on
 > human suffering that invokes an accompanying catharsis or pleasure in
