@@ -1,27 +1,31 @@
-title: "Berkhan Berkdemir's blog"
+title: "Berkhan's blog"
 author: Berkhan Berkdemir
-description: "About Ruby on Rails, Docker, GitHub, Amazon Web Services, and other cool stuffs"
-
+description: >-
+  About Ruby on Rails, Docker, GitHub, Amazon Web Services, and other cool
+  stuffs
 url: "https://www.berkhanberkdemir.com"
+
+logo: favicon.ico
 
 github_username: BerkhanBerkdemir
 rss: RSS
 
 plugins:
-- jekyll-avatar
-- jekyll-feed
-- jekyll-gist
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
 
 # Jekyll SEO tag
 ## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 social:
   name: Berkhan Berkdemir
   links:
-  - https://github.com/BerkhanBerkdemir
+    - https://github.com/BerkhanBerkdemir
+    - https://www.linkedin.com/in/berkhanberkdemir/
 
 # Build settings
 markdown: kramdown
