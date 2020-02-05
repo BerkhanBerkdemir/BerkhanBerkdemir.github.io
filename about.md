@@ -1,7 +1,7 @@
 ---
 title: ABOUTME.md
 description: >-
-  Every time read the manual that comes with the item. Here is the manual of
+  Every time read the manual that comes with "program". Here is the manual of
   this blog.
 date: 2018-04-26 14:42 -0700
 ---
@@ -16,7 +16,7 @@ link, and if you know Turkish, follow a blog that is called
 ## Coding
 
 Started with Python 3 with reading a book about **Programming with Python** in
-early 2015. The book was published in Turkish; therefore, I have missing
+early 2014[^2]. The book was published in Turkish; therefore, I have missing
 knowledge about terminology of programming especially object oriented
 programming. I moved on PHP since I didn't work with Django &mdash; I didn't
 even set it up on my MS Windows computer. At the same time, I opened a GitHub
@@ -28,7 +28,10 @@ love with it due to its **Don't Repeat Yourself** principle. After that moment,
 I started to look Docker and Kubernetes, and I use them in production for my
 open-source projects.
 
-### TL;DR
+I've taken C++ and Assembly (x86) classes in college and completed them with
+high grades (> 90%).
+
+### Too Long; Didn't Read
 
 I use Ruby.
 
@@ -36,7 +39,7 @@ I use Ruby.
 
 I hate to be unfair since I know that developing something is not easy as piece
 of cake; therefore, I hate to say "it s*cks". For example, I hate to write
-JavaScript since:
+JavaScript because:
 
 * Official name is EcmaScript. Heck? So, why aren't we call EcmaScript?
 * Browser version of JavaScript != Server version of JavaScript
@@ -45,10 +48,10 @@ JavaScript since:
   ```javascript
   1 == 1; // true
   'foo' == 'foo'; // true
-  [1, 2, 3] == [1, 2, 3] // false
+  [1, 2, 3] == [1, 2, 3]; // false
   ```
 
-*P.S. I know these questions' answers; as a result, I hate JavaScript*
+*P.S. I know these questions' answers; as a result, I hate JavaScript et al.*
 
 ## Amateur photographer
 
@@ -64,5 +67,6 @@ leave some of them in here
 ---
 
 [^1]: [Misafir on Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/turkish/guest)
+[^2]: I've found many small programs which have written in Python in 2014 June.
 
 [js-weird]: https://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/
