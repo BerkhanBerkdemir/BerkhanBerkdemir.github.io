@@ -8,6 +8,7 @@ url: "https://www.berkhanberkdemir.com"
 logo: favicon.ico
 
 github_username: BerkhanBerkdemir
+twitter_username: BerkhanBerkdemi
 rss: RSS
 
 plugins:
@@ -25,10 +26,14 @@ social:
   name: Berkhan Berkdemir
   links:
     - https://github.com/BerkhanBerkdemir
-    - https://www.linkedin.com/in/berkhanberkdemir/
+    - https://twitter.com/BerkhanBerkdemi
+    - https://www.linkedin.com/in/berkhanberkdemir
 
 # Build settings
 markdown: kramdown
 theme: minima
 sass:
   style: compressed
+
+collections:
+  - newsletters
