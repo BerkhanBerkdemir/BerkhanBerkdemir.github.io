@@ -2,6 +2,7 @@
 layout: post
 title: I dumped WhatsApp. Next G products
 date: 2020-05-15 11:24 -0700
+category: bits
 ---
 
 Yeah. I did. Check the [CONTACT.md](/contact.html) page for more details about
