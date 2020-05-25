@@ -1,0 +1,29 @@
+-- Creation time: December 10, 2019
+
+## CPU
+
+* ~AMD Ryzen 3 2200G - $77.98~
+  * https://www.amazon.com/AMD-Ryzen-Processor-Radeon-Graphics/dp/B079D3DBNM
+[DONE] AMD A12 9800 -> $37 (+ 10% tax)
+
+## Motherboard
+
+NOTE: I will need B350 chipset motherboard under $70 (incl. shipping and taxes)
+~Asus A320I-K - $92.99~
+  https://www.amazon.com/Prime-A320I-K-Ryzen-Motherboard-Gigabit/dp/B07VHQYGPP
+
+
+
+Crucial 3200 MHz DDR4 16 GB (8 GB x 2) - $64.99
+  https://www.amazon.com/Ballistix-Sport-PC4-25600-288-Pin-Memory/dp/B07MNJP6RW
+
+Samsung 970 EVO 250GB NVMe SSD - $109.88
+  https://www.amazon.com/Samsung-970-EVO-250GB-MZ-V7E250BW/dp/B07BN5FJZQ
+
+NZXT H200 - $62.72
+  https://www.amazon.com/NZXT-H200-All-Steel-Construction-Management/dp/B07CC5M298
+
+Corsair CX 750W 80+ Bronze Modular (CP-9020061-NA) - $54.99
+  https://www.amazon.com/Corsair-Certified-Modular-CP-9020061-NA-Refurbished/dp/B07HM869MP
+
+Total: $463.55
