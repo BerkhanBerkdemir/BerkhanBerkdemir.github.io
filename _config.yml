@@ -1,17 +1,10 @@
-title: "Berkhan's blog"
-author: Berkhan Berkdemir
-description: >-
-  About Ruby on Rails, Docker, GitHub, Amazon Web Services, and other cool
-  stuffs
-url: "https://www.berkhanberkdemir.com"
-
-logo: favicon.ico
-
-github_username: BerkhanBerkdemir
-twitter_username: BerkhanBerkdemi
+github_username: berkhanberkdemir
+linkedin_username: berkhanberkdemir
+twitter_username: berkhanberkdemi
 rss: RSS
 
 plugins:
+  - jekyll-archive
   - jekyll-avatar
   - jekyll-feed
   - jekyll-gist
@@ -21,12 +14,23 @@ plugins:
   - jemoji
 
 # Jekyll SEO tag
-## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+#
+title: Berkhan's Blog
+description: A blog dedicated to reviewing any software technology
+url: https://www.berkhanberkdemir.com
+author:
+  name: Berkhan Berkdemir
+  twitter: berkhanberkdemi
+logo: favicon.ico
+twitter:
+  username: berkhanberkdemi
+  card: summary
 social:
   name: Berkhan Berkdemir
   links:
-    - https://github.com/BerkhanBerkdemir
-    - https://twitter.com/BerkhanBerkdemi
+    - https://github.com/berkhanberkdemir
+    - https://twitter.com/berkhanberkdemi
     - https://www.linkedin.com/in/berkhanberkdemir
 
 # Build settings
