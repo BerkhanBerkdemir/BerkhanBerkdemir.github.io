@@ -7,6 +7,9 @@ name: Jekyll deploy
 
 on: push
 
+env:
+  NETLIFY_SITE_ID: 0bde7ff5-a467-4cff-ba56-5e0159febd36
+
 jobs:
   deploy:
 
@@ -26,11 +29,8 @@ jobs:
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
-      - name: Install Ruby system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends zlib1g-dev
-          gem install bundler:1.17.3
+      - run: gem install bundler:1.17.3
       - run: bundler install --path vendor/bundle
       - run: npm install -g netlify-cli
       - run: bundler exec jekyll build
+      - run: netlify deploy --dir=_site
