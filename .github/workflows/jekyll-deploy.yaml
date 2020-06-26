@@ -26,10 +26,11 @@ jobs:
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
-      - run: |
+      - name: Install Ruby system dependencies
+        run: |
           sudo apt-get update
           sudo apt-get install --yes --no-install-recommends zlib1g-dev
-          sudo gem install bundler --version=1.17.3
+          gem install bundler:1.17.3
       - run: bundler install --path vendor/bundle
       - run: npm install -g netlify-cli
       - run: bundler exec jekyll build
