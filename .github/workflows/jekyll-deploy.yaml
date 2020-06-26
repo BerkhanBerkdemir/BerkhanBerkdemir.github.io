@@ -33,4 +33,4 @@ jobs:
       - run: bundler install --path vendor/bundle
       - run: npm install -g netlify-cli
       - run: bundler exec jekyll build
-      - run: netlify deploy --dir=_site
+      - run: netlify deploy --dir=_site --prod
