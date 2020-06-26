@@ -8,10 +8,11 @@ name: Jekyll deploy
 on: push
 
 env:
+  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
   NETLIFY_SITE_ID: 0bde7ff5-a467-4cff-ba56-5e0159febd36
 
 jobs:
-  deploy:
+  Deploy to Netlify:
 
     runs-on: ubuntu-18.04
 
