@@ -12,7 +12,7 @@ env:
   NETLIFY_SITE_ID: 0bde7ff5-a467-4cff-ba56-5e0159febd36
 
 jobs:
-  Deploy to Netlify:
+  deploy:
 
     runs-on: ubuntu-18.04
 
