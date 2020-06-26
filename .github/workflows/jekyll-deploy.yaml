@@ -1,11 +1,14 @@
 name: Jekyll deploy
 
-# on:
-#   push:
-#     branches:
-#       - master
+# NOTE: I'll high likely want to see a preview with chaning NETLIFY_ENVIRONMENT
+#    dynamicaly. This can be done with adding `if' statments and checking the
+#    required conditon. However, I just don't want to add 3-4 lines reapted
+#    code.
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 env:
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
