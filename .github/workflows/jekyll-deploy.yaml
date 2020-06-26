@@ -1,5 +1,10 @@
 name: Jekyll deploy
 
+# on:
+#   push:
+#     branches:
+#       - master
+
 on: push
 
 jobs:
@@ -22,7 +27,9 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
       - run: |
+          sudo apt-get update
           sudo apt-get --yes --no-install-recommends zlib1g-dev
           sudo gem install bundler --version=1.17.3
       - run: bundler install --path vendor/bundle
+      - run: npm install -g netlify-cli
       - run: bundler exec jekyll build
