@@ -4,7 +4,7 @@ twitter_username: berkhanberkdemi
 rss: RSS
 
 plugins:
-  - jekyll-archive
+  - jekyll-archives
   - jekyll-avatar
   - jekyll-feed
   - jekyll-gist
