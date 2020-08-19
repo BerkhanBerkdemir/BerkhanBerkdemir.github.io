@@ -3,7 +3,7 @@ layout: post
 title: Ruby geliştirici ortamı kuralım Ubuntu'da
 author: Berkhan Berkdemir
 date: 2018-04-25
-update: 2018-04-28
+modified_date: 2018-04-28
 ---
 
 Merhaba arkadaşlar,

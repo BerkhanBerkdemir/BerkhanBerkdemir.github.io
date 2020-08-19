@@ -6,9 +6,12 @@ layout: post
 
 Merhabalar,
 
-Yazdığım bir önce ki 14.04 de bir sorun fark ettim. Sistem çalışmıyor. Daha doğrusu ben mysql ile alakalı bir yanlış yaptım. Bu yüzden de beyaz ekran geliyor ve web sitesi yüklenmiyor.
+Yazdığım bir önce ki 14.04 de bir sorun fark ettim. Sistem çalışmıyor. Daha
+doğrusu ben MySQL ile alakalı bir yanlış yaptım. Bu yüzden de beyaz ekran
+geliyor ve web sitesi yüklenmiyor.
 
-Tekrardan kurdum sistemi ve mysql database engine kullanmadım. SQLite ile bütün işi yaptım. Elbette Mysql kadar güven verici değil.
+Tekrardan kurdum sistemi ve mysql database engine kullanmadım. SQLite ile bütün
+işi yaptım. Elbette MySQL kadar güven verici değil.
 
 Video da aslına çoğu şey anlaşılır. Önerileriniz olursa benimle paylaşın.
 
@@ -23,13 +26,13 @@ sudo apt-get update && sudo apt-get upgrade
 
 auto lo eth0
 iface eth0 inet static
-address 192.168.1.200
-netmask 255.255.255.0
-network 192.168.1.0
-broadcast 192.168.1.255
-gateway 192.168.1.1
-dns-nameservers 208.67.222.222
-dns-nameservers 208.67.220.220
+    address 192.168.1.200
+    netmask 255.255.255.0
+    network 192.168.1.0
+    broadcast 192.168.1.255
+    gateway 192.168.1.1
+    dns-nameservers 208.67.222.222
+    dns-nameservers 208.67.220.220
 ```
 
 CTRL+X ile kaydedip çıkın
@@ -66,8 +69,7 @@ sudo cp -r owncloud /var/www/html
 </Directory>
 ```
 
-burayı kopyalayın ve alttaki kaydedip çıkın
-CTRL+X 'E'
+burayı kopyalayın ve alttaki kaydedip çıkın CTRL+X 'E'
 
 ```shell
 sudo chown -R www-data:www-data /var/www/html/owncloud/

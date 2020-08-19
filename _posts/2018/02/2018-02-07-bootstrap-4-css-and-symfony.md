@@ -114,7 +114,8 @@ We will use asset for templating. It is easy to use integrate CSS/JS to your twi
 ## Write your first template
 First of all I won't show you to create any router or controller. I just show you these twig files
 
-```twig
+{% raw %}
+```
 {# templates/base.html.twig #}
 <!DOCTYPE html>
 <html>
@@ -132,8 +133,10 @@ First of all I won't show you to create any router or controller. I just show yo
     </body>
 </html>
 ```
+{% endraw %}
 
-```twig
+{% raw %}
+```
 {# templates/index.html.twig #}
 {% extends "base.html.twig" %}
 
@@ -141,6 +144,7 @@ First of all I won't show you to create any router or controller. I just show yo
 
 {% block body %}<h1>Hello, World!</h1>{% endblock %}
 ```
+{% endraw %}
 
 
 You will render `index.html.twig` file into your controller.
